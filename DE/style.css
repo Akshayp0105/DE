@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #2980b9; /* Darker blue */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.navbar h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #f39c12; /* Yellow hover effect */
+    transition: background-color 0.3s ease;
+}
+
+/* Center Image Section */
+.center-image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Height of the section */
+    background-color: #f39c12; /* Yellow background for free space */
+    margin: 40px 0; /* Adds space above and below the image */
+}
+
+.center-image {
+    max-width: 80%; /* Limit the width to 80% of its container */
+    max-height: 100%; /* Ensure the image does not exceed the section's height */
+    object-fit: contain; /* Maintain aspect ratio of the image */
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.about-section h2 {
+    color: #3498db; /* Blue */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2980b9; /* Same blue as navbar */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
